@@ -20,7 +20,7 @@ public class AdivinApp extends Application{
 	private Alert acierto;
 	private Alert fallo;
 	private Alert numeroNoValido;
-	int numAdivinar = (int) ((Math.random() * 100) + 1); // Generador del número a Adivinar
+	int numAdivinar = (int) ((Math.random() * 100) + 1); 
 	int numIntentos = 0;
 	
 	@Override
