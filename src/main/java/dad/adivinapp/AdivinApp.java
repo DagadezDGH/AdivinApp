@@ -102,7 +102,7 @@ public class AdivinApp extends Application {
 		numInvalido = new Alert(AlertType.ERROR);
 		numInvalido.setTitle("AdivinApp");
 		numInvalido.setHeaderText("Error");
-		numInvalido.setContentText("El número introducido no es válido");
+		numInvalido.setContentText("El número introducido no es válido.");
 
 		numInvalido.showAndWait();
 	}
@@ -113,7 +113,7 @@ public class AdivinApp extends Application {
 		fallo = new Alert(AlertType.WARNING);
 		fallo.setTitle("AdivinApp");
 		fallo.setHeaderText("¡Has fallado!");
-		fallo.setContentText("El número a adivinar es " + rango + " que " + num);
+		fallo.setContentText("El número a adivinar es " + rango + " que " + num + ".");
 
 		fallo.showAndWait();
 
@@ -126,7 +126,7 @@ public class AdivinApp extends Application {
 		correcto = new Alert(AlertType.INFORMATION);
 		correcto.setTitle("AdivinApp");
 		correcto.setHeaderText("¡Has ganado!");
-		correcto.setContentText("Sólo has necesitado " + numIntento + " intentos" + "\n\nVuelve a jugar y hazlo mejor");
+		correcto.setContentText("Sólo has necesitado " + numIntento + " intentos." + "\n\nVuelve a jugar y hazlo mejor.");
 
 		correcto.showAndWait();
 	}
